@@ -33,6 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Common.Logging">
+      <HintPath>bin\Debug\Quartz\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Nullables">
+      <HintPath>bin\Debug\Quartz\Nullables.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz">
+      <HintPath>bin\Debug\Quartz\Quartz.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
